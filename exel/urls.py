@@ -5,5 +5,5 @@ from api_exel.views import ProductList
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello', ProductList.as_view())
+    path('list', ProductList.as_view())
 ]
